@@ -370,8 +370,8 @@ nav {
 .portfolio-item {
   flex-basis: calc(100% / 3 - 30px);
   padding-bottom: 20px;
-  border: 1px solid #eeeeee;
-  /* outline: 1px solid blue; */
+  /* border: 1px solid #eeeeee;
+  overflow: clip; */
   margin-top: var(--portfolio-item-gep);
   margin-left: var(--portfolio-item-gep);
 }
@@ -380,11 +380,11 @@ nav {
   width: 100%;
 }
 
-/* .portfolio-item-details {
+.portfolio-item-details {
   padding-bottom: 20px;
   border: 1px solid #eeeeee;
   border-top: 1px solid transparent;
-} */
+}
 
 .portfolio-item-title {
   margin-bottom: 4px;
