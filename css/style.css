@@ -152,7 +152,14 @@ nav {
 
 /*HERO*/
 .hero {
-  background-color: var(--backgroud-greay-color);
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/bg-hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1600px;
 }
 
 .container.hero {
@@ -224,6 +231,22 @@ nav {
 .features-list {
   display: flex;
   margin-bottom: 94px;
+}
+
+.features-pic-wrap {
+  display: flex;
+  width: 270px;
+  height: 120px;
+  display: flex;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+.features-pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .features-list-item {
@@ -304,12 +327,38 @@ nav {
 }
 
 .team-item-text {
+  margin-bottom: 16px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18em;
   text-align: center;
   letter-spacing: 0.03em;
 }
+
+.social-list {
+  display: flex;
+  margin-right: -10px;
+  justify-content: center;
+}
+
+.social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  outline: 1px solid black;
+  /* background-color: turquoise; */
+  margin-right: 10px;
+}
+
+.social-list-item {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
 /*TEAM*/
 
 /*PORTFOLIO*/
