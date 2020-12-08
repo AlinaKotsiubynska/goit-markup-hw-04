@@ -117,7 +117,7 @@ nav {
 }
 
 .nav-link-item:not(:last-child),
-.address-item:not(last-child) {
+.header-address-item:not(:last-child) {
   margin-right: 50px;
 }
 
@@ -126,35 +126,31 @@ nav {
   text-decoration: none;
 }
 
-.header-address-item {
-  display: flex;
-}
-
-.address-item {
-  display: flex;
-  color: var(--main-color);
-}
-
-.nav-link:hover,
-.nav-link:focus,
-/* .address-item:hover,
-.address-item:focus .icon-envelope:hover,
-.icon-envelope:focus,
-.icon-phone:hover,
-.icon-phone:focus  */
-.header-address-item:hover,
-.header-address-item:focus {
-  color: var(--acent-color);
-  fill: var(--acent-color);
-}
-
 .header-address {
   margin-left: auto;
 }
 
+.header-address-item {
+  display: flex;
+}
+
+.address-item,
 .header-address-list {
   display: flex;
+  color: var(--main-color);
   fill: var(--main-color);
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.address-item:hover,
+.address-item:focus {
+  color: var(--acent-color);
+  fill: var(--acent-color);
+}
+
+.address-icon {
+  margin-right: 10px;
 }
 
 .curent {
